@@ -83,6 +83,7 @@ Form.Check {
   padding: 8px;
   border: none;
   border-radius: 20px;
+  margin-bottom: 4px;
 }
 
 .fbuttons2 {
@@ -91,6 +92,8 @@ Form.Check {
   padding: 8px;
   width: 15rem;
   background-color: yellow;
+  margin-bottom: 4px;
+  /* margin: 2px; */
 }
 
 .roi {
