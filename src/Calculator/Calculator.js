@@ -42,7 +42,7 @@ const Calculator = () => {
 
                 <div className="usebalance2">
                   <b>
-                    <p className="">$20.82</p>
+                    <p className="" style={{textAlign: "end"}}>$20.82</p>
                   </b>
                 </div>
               </div>
@@ -112,7 +112,7 @@ const Calculator = () => {
             <p className="hidedetails">Hide Details v</p>
             <div className='row' style={{ fontWeight: '650' }}>
               <p className='col'>APY</p>
-              <p className='col' style={{ color: '#F1C42C', marginLeft: '85%' }}>63.34%</p>
+              <p className='col' style={{ color: '#F1C42C', textAlign: "end" }}>63.34%</p>
             </div>
             <div className="calculated">
               <ul>
