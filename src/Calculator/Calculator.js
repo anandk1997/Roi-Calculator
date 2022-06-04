@@ -14,8 +14,8 @@ const Calculator = () => {
         <div className="card" >
           <div className="card-body">
             {/* <div className="containers"> */}
-            <div className="top my-4">
-              <span>Calculator</span>
+            <div className="top my-4 rows">
+              <span> ROI Calculator</span>
               <CloseButton className="float-end" />
             </div>
             <div className="float-end my-2 d-flex ">
