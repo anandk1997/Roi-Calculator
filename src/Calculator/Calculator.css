@@ -1,0 +1,172 @@
+.cake,
+Form.Check {
+  display: inline-block;
+}
+
+.containers {
+  width: 30rem;
+  margin: auto;
+}
+.txtarea {
+  color: grey;
+  border-color: red;
+  border-radius: 5px;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: #f1c643;
+  border-color: #f1c643;
+}
+
+.nd {
+  opacity: 0.4;
+}
+
+.fc {
+  color: yellow;
+}
+.btns {
+  background-color: rgb(251, 251, 202);
+  font-size: 12px;
+  border-radius: 20px;
+  border: none;
+  /* padding: 0.4rem; */
+  /* width: 8rem; */
+}
+
+.btns1 {
+  background-color: rgb(244, 240, 240);
+  border: none;
+  border-radius: 20px;
+  /* width: 5rem; */
+}
+
+.marginl {
+  margin-left: 10px;
+}
+
+.usebalance2 {
+  margin-left: auto;
+  opacity: 0.4;
+  font-size: 0.7rem;
+}
+
+.fbutton1 {
+  border: none;
+  background-color: yellow;
+  /* width: 5rem; */
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.fbutton2 {
+  border: none;
+  background-color: rgba(230, 230, 245, 0.634);
+  /* width: 5rem; */
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.fcc {
+  margin-left: auto;
+  /* right: 40px; */
+}
+
+.selecttier {
+  opacity: 0.4;
+  font-size: 13px;
+}
+
+.fbuttons1 {
+  background-color: rgb(240, 242, 245);
+  width: 15rem;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+}
+
+.fbuttons2 {
+  border-radius: 20px;
+  border: none;
+  padding: 8px;
+  width: 23rem;
+  background-color: yellow;
+}
+
+.roi {
+  opacity: 0.4;
+  font-size: 13px;
+}
+
+.don {
+  opacity: 0.3;
+  /* margin-top: 2rem; */
+  margin-left: auto;
+  /* margin-right: auto; */
+  font-size: 15px;
+}
+
+.appcan {
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  margin: auto;
+}
+.apply {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 0.8rem;
+  width: 20rem;
+  margin-right: 0.8rem;
+}
+
+.cancel {
+  background-color: white;
+  border-color: black;
+  padding: 15px;
+  border-radius: 0.8rem;
+  width: 20rem;
+}
+
+.hidedetails {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.text {
+  text-align: left;
+  margin-top: 2px;
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.inputText {
+  height: 60px;
+  border-radius: 8px;
+  border: #eaeaea 2px solid;
+  margin-top: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: end;
+}
+.texts {
+  text-align: end;
+  margin-top: 15px;
+  opacity: 0.6;
+}
+
+@media (max-width: 888px) {
+  .apply {
+    width: auto;
+  }
+
+  .cancel {
+    width: auto;
+  }
+
+  .appcan {
+    width: auto;
+  }
+}
